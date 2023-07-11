@@ -1,4 +1,4 @@
-Voici les sources utilisées pendant l'ECF 1 : 
+Voici les sources consultées pendant l'ECF 1 : 
 
 https://www.freecodecamp.org/news/javascript-map-reduce-and-filter-explained-with-examples/
 https://www.w3schools.com/
