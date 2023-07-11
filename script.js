@@ -29,7 +29,13 @@ const displayMeals = () => {
     //Pour trier les données
     .sort((m1, m2) => {
         //Tri de A à Z
-        return m1.strMeal.localeCompare(m2.strMeal);
+        if(m1.strMeal < m2.strMeal) {
+            return m1.strMeal.localeCompare(m2.strMeal);
+        }
+        else if(m1.strMeal > m2.strMeal) {
+            return m2.strMeal.localeCompare(m1.strMeal);
+        }
+        
         // if (sortMethod === "atoz") {
         //     return m1.strMeal.localeCompare(m2.strMeal);
         // }
@@ -72,7 +78,7 @@ const alphabeticalSort = () => atoz.addEventListener("click", () => {
     atoz.textContent = "Z to A";
     sortMethod === "ztoa";
     // //La sortMethod change
-    let switching = true;
+    // let switching = true;
     // if(switching = true) {
     //     sortMethod === "ztoa";
     //     atoz.textContent = "Z to A";
