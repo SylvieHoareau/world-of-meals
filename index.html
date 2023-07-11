@@ -12,12 +12,12 @@
             <h1>World Of Meals</h1>
             <form role="search">
                 <input type="search" placeholder="Search Your Meal" id="searchInput">
-                <input type="submit" value="search">
+                <button type="submit" id="btnSearch" onclick="search()">Search</button>
             </form>
             <label for="inputRange"></label>
             <input type="range" min="0" max="40" value="20" name="inputRange" id="inputRange">
             <span id="outputRange"></span>
-            <button id="atoz">A to Z</button>
+            <button id="atoz" onclick="alphabeticalSort()">A to Z</button>
         </nav>
     </header>
     <main>

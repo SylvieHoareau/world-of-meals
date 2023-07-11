@@ -31,12 +31,20 @@ h1 {
     font-size: 2rem;
 }
 
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
 input[type="search"] {
     padding: 1em;
     border-radius: 1em;
 }
 
-button, input[type="submit"] {
+button {
     padding: 1em;
     color: black;
     background-color: var(--secondary-color);
@@ -121,6 +129,11 @@ footer {
         align-content: center;
         justify-content: space-between;
         margin: 1em;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
     }
 
     .cardContainer {
