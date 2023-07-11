@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color: #D9D9D9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', Helvetica, sans-serif;
+}
+
+nav {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin: 1em;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+input[type="search"] {
+    padding: 1em;
+    border-radius: 1em;
+}
+
+button, input[type="submit"] {
+    padding: 1em;
+    color: black;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 1em;
+}
+
+button:hover, input[type="submit"]:hover {
+    color: white;
+    background-color: black;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1em;
+    width: 100%;
+    margin: 2em 1em;
+}
+
+.card {
+    width: 17em;
+    height: max-content;
+    border-radius: 1.25em;
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.card h1 {
+    font-size: 1.75rem;
+    text-align: center;
+    margin: 1em 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+   margin: 1em;
+}
+
+p {
+    margin: 1em;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
+
+/*ADAPTATIONS AUX ECRANS MOBILES ET TABLETTES*/
+@media screen and (min-width:320px) and (max-width:768px) {
+
+    nav {
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: space-between;
+        margin: 1em;
+    }
+
+    .cardContainer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 1em;
+        width: 100%;
+        margin: 2em 1em;
+    }
+    
+    .card {
+        width: 100vw;
+        height: max-content;
+        border-radius: 1.25em;
+        background: #D9D9D9;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+
+}
+
+
+
+
+
