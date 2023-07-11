@@ -5,3 +5,5 @@ https://www.w3schools.com/
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range
 http://www.finalclap.com/faq/230-css-text-overflow-ellipsis#:~:text=La%20propri%C3%A9t%C3%A9%20CSS%20text-overflow%3A%20ellipsis%3B%20permets%20d%27ajouter%20automatiquement,excel%20vous%20en%20saurez%20d%27avantage%20sur%20ce%20sujet.
 https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML
+https://www.w3schools.com/cssref/css3_pr_text-overflow.php#:~:text=CSS%20text-overflow%20Property%201%20Definition%20and%20Usage%20The,4%20Property%20Values%205%20More%20Examples%20Example%20
+https://developer.mozilla.org/fr/docs/Web/CSS/text-overflow
