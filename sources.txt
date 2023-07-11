@@ -1,0 +1,7 @@
+Voici les sources utilisées pendant l'ECF 1 : 
+
+https://www.freecodecamp.org/news/javascript-map-reduce-and-filter-explained-with-examples/
+https://www.w3schools.com/
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range
+http://www.finalclap.com/faq/230-css-text-overflow-ellipsis#:~:text=La%20propri%C3%A9t%C3%A9%20CSS%20text-overflow%3A%20ellipsis%3B%20permets%20d%27ajouter%20automatiquement,excel%20vous%20en%20saurez%20d%27avantage%20sur%20ce%20sujet.
+https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML

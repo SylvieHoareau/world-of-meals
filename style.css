@@ -69,6 +69,7 @@ button:hover, input[type="submit"]:hover {
     justify-content: center;
     align-items: center;
     align-content: center;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .card h1 {
@@ -88,12 +89,16 @@ h2 {
 
 p {
     margin: 1em;
+    /*Pour tronquer le texte*/
+    text-overflow: ellipsis;
 }
 
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100vw;
+    background-color: var(--secondary-color);
+    padding: 1em;
 }
 
 /*ADAPTATIONS AUX ECRANS MOBILES ET TABLETTES*/
